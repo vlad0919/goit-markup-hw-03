@@ -1,2 +1,1 @@
-# goit-markup-hw-03
-3rd homework WebStudio
+# goit-markup-hw-02
