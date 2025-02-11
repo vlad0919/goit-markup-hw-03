@@ -1,3 +1,5 @@
+/* Common rules */
+
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -5,12 +7,26 @@ body {
     color: #434455;
 }
 
+
+    /* Reset */
 a {
     text-decoration: none;
 }
 
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0px 15px ;
+    margin: 0 auto;
 }
 
 /* Header-styles */
@@ -34,6 +50,8 @@ ul, ol {
   }
   
   .nav-link {
+    padding: 24px 0;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -43,9 +61,12 @@ ul, ol {
   
   .contacts {
     font-style: normal;
+    margin-left: auto;
   }
   
   .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -58,6 +79,37 @@ ul, ol {
   .contacts-link:focus {
     color: #404bbf;
   }              
+
+ .page-header {
+    border-bottom: 1px solid #e7e9fc;
+ }
+
+ .page-header {
+    display: flex;
+    align-items: center;
+ }
+
+ .header-nav {
+    display: flex;
+    align-items: center;
+ }
+
+ .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+ }
+
+ .contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+ }
+
+ .header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+ }
 
 /* Hero-styles */
 
